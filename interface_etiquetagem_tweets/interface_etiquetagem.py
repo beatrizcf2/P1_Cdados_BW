@@ -29,7 +29,7 @@ def exibir(surface, text, pos, font, color=pygame.Color('black')):
         y += word_height  
 
 df = pd.read_excel("Joker.xlsx")
-tweets = df['Treinamento'].tolist()
+tweets = df['Teste 1'].tolist()
 
 font = pygame.freetype.Font("OpenSansEmoji.ttf", 30)
 
