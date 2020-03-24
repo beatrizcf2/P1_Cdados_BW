@@ -29,7 +29,7 @@ def exibir(surface, text, pos, font, color=pygame.Color('black')):
         y += word_height  
 
 df = pd.read_excel("Joker.xlsx")
-tweets = df['Teste1'].tolist()
+tweets = df['Treinamento'].tolist()
 
 font = pygame.freetype.Font("OpenSansEmoji.ttf", 30)
 
@@ -86,6 +86,16 @@ while not done:
                 
             elif event.key == pygame.K_UP:
                 lista_classificacao.append(4)
+                try:
+                    exibir(screen, tweets[contador], (20, 20), font)
+                    pygame.display.flip()
+                    print(lista_classificacao)
+                    contador = contador + 1
+                except: 
+                    pass
+                
+            elif event.key == pygame.K_5:
+                lista_classificacao.append(5)
                 try:
                     exibir(screen, tweets[contador], (20, 20), font)
                     pygame.display.flip()
