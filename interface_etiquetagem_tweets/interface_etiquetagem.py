@@ -121,7 +121,8 @@ while not done:
 
 df["Etiquetas"] = lista_classificacao
 
-df.to_excel("Joker_etiquetada_teste1.xlsx", index=False)
+df.to_excel("Joker_etiquetada_teste_1.xlsx", index=False)
+
                 
 exibir(screen, "Fim da etiquetagem!", (20, 20), font)
 pygame.display.flip()
