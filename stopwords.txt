@@ -218,3 +218,7 @@ terão
 teria
 teríamos
 teriam
+rt
+co
+@
+q
