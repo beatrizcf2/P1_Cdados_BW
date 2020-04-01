@@ -9,8 +9,7 @@ em
 um 
 para 
 é 
-com 
-não 
+com  
 uma 
 os 
 no 
@@ -91,7 +90,9 @@ dele
 tu 
 te 
 vocês 
-vos 
+vos
+vc
+vcs 
 lhes 
 meus 
 minhas
@@ -220,5 +221,14 @@ teríamos
 teriam
 rt
 co
-@
+pra
+6
+2
+4
+5
+3
+1
+7
+172
+tá
 q
